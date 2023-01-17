@@ -18,7 +18,7 @@ for(var num = 0; num < 15; num++){
 // 11
 // 12
 // 13
-// 14
+// 14             
 
 // Predict 2
 for(var i = 1; i < 10; i+=2){
@@ -69,3 +69,6 @@ for(var j = 1; j <= 15; j++){
 // 11
 // 14
 // 16
+
+// Missed that the instructions in the if statements actually changed the value of j that's going back into the for loop
+// Also the fact that j is again then incremented by 1 when it goes back into the for loop
