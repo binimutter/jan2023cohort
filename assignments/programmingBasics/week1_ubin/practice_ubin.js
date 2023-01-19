@@ -12,6 +12,18 @@ for(let i = 0; i < arr01.length; i++) {
 console.log('updated arr01:', arr01)
 console.log('updated arr02:', arr02)
 
+// define variable arr01
+// define variable arr02 - empty array
+// for loop - start @ 0; end @ end of array; i++
+// conditional - if value at index of arr01 is greater than 0, add value to arr02
+    // else print "I seem to have failed the if check"
+
+// Predicted Output:
+// I seem to have failed the if check
+// I seem to have failed the if check
+// updated arr01: ["This is just a test", 2, 5, 7, "Just for practice"]
+// updated arr02: [2, 5, 7]
+
 
 // Return Odds Array 1-255 Create an array with all the odd integers between 1 and 255 (inclusive).
 
