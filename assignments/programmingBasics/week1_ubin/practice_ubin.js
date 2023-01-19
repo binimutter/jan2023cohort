@@ -18,11 +18,17 @@ console.log('updated arr02:', arr02)
 // for loop - start @ 1; stop <= 255; move through loop - i++
 // conditional- 1 % 2 == 1 => if true empty array .push i
 // empty array
+
 let arr03 = []
+for (let i = 0; i <= 255; i++) {
+    if (i % 2 == 1) {
+        arr03.push(i)
+    }
+}
+console.log(arr03)
 
 // Given the following array print each value
 var arr04 = ["Arrays and loops", "can be fun", "but they can also", "be hard"]
-
 
 
 // Add the following array to the above array at the end
