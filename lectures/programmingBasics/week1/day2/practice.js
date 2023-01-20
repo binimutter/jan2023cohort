@@ -16,12 +16,6 @@ console.log('updated arr02:', arr02)
 
 // Return Odds Array 1-255 Create an array with all the odd integers between 1 and 255 (inclusive).
 
-<<<<<<< HEAD
-// for loop - start @ 1; stop <= 255; move through loop - i++
-// conditional- 1 % 2 == 1 => if true empty array .push i
-// empty array
-let arr03 = []
-=======
 // for loop - start@ 1 stop@ <=255 move through loop - i++
 // conditional - i % 2 == 1 => if true empty array .push i
 // empty array
@@ -35,7 +29,6 @@ for(let i = 0; i <= 255; i++) {
 // console.log(arr03)
 
 
->>>>>>> 0d6b2c9ec693f3947df7e5badf890dcf1418ce85
 
 // Given the following array print each value
 var arr04 = ["Arrays and loops", "can be fun", "but they can also", "be hard"]
