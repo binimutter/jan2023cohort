@@ -20,8 +20,8 @@ let tools = [
 //     // return tools[i]
 // }
 function siteTools(arr) {
-    for (let i = 0; i < arr.length; i++) {
-        console.logs(arr[i])
+    for(let i = 0; i  < arr.length; i++) {
+        console.log(arr[i])
     }
 }
 
