@@ -22,10 +22,10 @@
 //     {'meal': 'salad', 'ingredients': {'grains': ['croutons', 'corn'], 'fruits': [], 'vegetables': ['lettuce', 'carrots', 'cucumber', 'peppers', 'onions'], 'proteins': ['ham', 'bacon'], 'dairy': ['cheese', 'blue cheese dressing']}}
 // ]
 
-// function printMealNames(arr, a) {
-//     for (let i = 0; i < arr.length; i++) {
-//         console.log(arr[i][a])
-//     }
-// }
+function printMealNames(arr, a) {
+    for (let i = 0; i < arr.length; i++) {
+        console.log(arr[i][a])
+    }
+}
 
 // printMealNames(meals, 'meal')
