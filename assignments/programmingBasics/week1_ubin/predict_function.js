@@ -57,18 +57,18 @@
 
 
 // Predict 3
-// function highFive(num){
-//     for(var i=0; i<num; i++){
-//         if(i == 5){
-//             console.log("High Five!");
-//         }
-//         else{
-//             console.log(i);
-//         }
-//     }
-// }
+function highFive(num){
+    for(var i=0; i<num; i++){
+        if(i == 5){
+            console.log("High Five!");
+        }
+        else{
+            console.log(i);
+        }
+    }
+}
 
-// console.log(highFive(7))
+highFive(7)
 
 // Predicted Output: 
 // nothing because function is not called
