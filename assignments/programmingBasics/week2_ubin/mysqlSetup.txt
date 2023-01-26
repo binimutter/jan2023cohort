@@ -1,0 +1,7 @@
+USE petTraining;
+SELECT * from user;
+insert into user (firstName, lastName) values ('John', 'Doe');
+UPDATE user SET
+firstName = "Julie"
+WHERE id = 4;
+DELETE FROM user WHERE id = 1;
