@@ -51,7 +51,7 @@ group by CONCAT(clients.first_name , ' ' , clients.last_name), month(leads.regis
 8a. 
 select CONCAT(clients.first_name , ' ' , clients.last_name) as client, sites.domain_name as website, count(leads.site_id) as number_of_leads
 from clients
-left join sites on sites.client_id = clients.client_id
+join sites on sites.client_id = clients.client_id
 left join leads on leads.site_id = sites.site_id
 where registered_datetime >= '2011-01-01' AND registered_datetime <= '2011-12-31'
 group by sites.domain_name
@@ -60,7 +60,7 @@ order by sites.client_id, sites.domain_name;
 8b.
 select CONCAT(clients.first_name , ' ' , clients.last_name) as client, sites.domain_name as website, count(leads.site_id) as number_of_leads
 from clients
-left join sites on sites.client_id = clients.client_id
+join sites on sites.client_id = clients.client_id
 left join leads on leads.site_id = sites.site_id
 group by sites.domain_name
 order by sites.client_id, sites.domain_name;
@@ -82,5 +82,5 @@ order by billing.client_id, month(billing.charged_datetime);
 10.
 select concat(clients.first_name , ' ' , clients.last_name) as client_name, group_concat(sites.domain_name separator ' / ') as sites
 from clients
-left join sites on sites.client_id = clients.client_id
+join sites on sites.client_id = clients.client_id
 group by sites.client_id;
