@@ -5,7 +5,7 @@ body {
 }
 .title-container {
     text-align: center;
-    margin-top: 3rem;
+    margin-top: 50px;
 }
 #title-img {
     width: 100px;
@@ -16,7 +16,7 @@ body {
     display: inline;
 }
 .blocks-container {
-    margin: .5rem 2rem;
+    margin: 10px 100px;
     text-align: center;
     position: relative;
 }
@@ -39,5 +39,4 @@ body {
 }
 #block-img {
     width: 100px;
-    height: 100px;
 }
