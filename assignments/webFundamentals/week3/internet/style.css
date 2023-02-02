@@ -1,0 +1,17 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	/* color: white; */
+	font-family: "Montserrat", sans-serif;
+}
+.wrapper {
+	width: 970px;
+	margin: auto;
+	background-color: #245076;
+}
+.header {
+	padding: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
