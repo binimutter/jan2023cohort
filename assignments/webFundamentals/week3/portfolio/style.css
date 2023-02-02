@@ -120,14 +120,18 @@ a {
 	background-color: white;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
 		rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	padding-top: 10px;
+    text-align: center;
+	padding: 10px;
 }
-.footer-img {
+.socials {
+	display: flex;
+	width: 362px;
+	padding: 10px;
+	margin: auto;
+}
+.footer img {
 	width: 20px;
-	background: none;
+    margin: auto;
 }
 button {
 	background: green;
