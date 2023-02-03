@@ -14,5 +14,5 @@ function hideCookie() {
 function changeDegrees() {
     var parent = document.getElementById("temperature");
     var values = parent.getElementsByTagName('h2');
-    console.log("🚀 ~ file: script.js:18 ~ changeDegrees ~ values", values)
+    // console.log("🚀 ~ file: script.js:18 ~ changeDegrees ~ values", values)
 }
