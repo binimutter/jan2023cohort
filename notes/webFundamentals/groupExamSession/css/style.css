@@ -1,0 +1,118 @@
+* {
+    /* border: 1px dotted red; */
+    margin: auto;
+}
+img {
+    max-height: 150px;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.row h1 {
+    color: white;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.column h3 {
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+button {
+    background-color: turquoise;
+    border: 1px solid teal;
+}
+.price {
+    color: blueviolet;
+}
+header {
+    display: flex;
+    flex-direction: column;
+}
+header .row {
+    background-color: rgb(58, 186, 186);
+    width: 100%;
+}
+header .row img {
+    border-radius: 50%;
+}
+#cart {
+    color: black;
+    font-size: 1.2em;
+}
+header .nav {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.2em;
+    width: 100%;    
+}
+header .nav a {
+    color: white;
+    text-decoration: none;
+    padding: 1em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+.squishyRow {
+    width: 100%;
+}
+.miniSquish {
+    border: 2px solid purple;
+}
+main .row .column {
+    padding: 1em;
+}
+
+main .row .column .row .column img {
+    border-radius: 50%;
+}
+p {
+    margin: .5em;
+    font-size: 1.1em;
+}
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer img {
+    border-radius: 50%;
+    max-width: 75px;
+}
+.footerRow {
+    display: flex;
+    width: 100%;
+}
+.footerRow img {
+    max-height: 50px;
+}
+.footerMaggie {
+    /* position: fixed; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#sale {
+    padding: 1em;
+    margin: 1em;
+    border: 2px solid green;
+}
+#sale h3 {
+    max-width: 40%;
+}
