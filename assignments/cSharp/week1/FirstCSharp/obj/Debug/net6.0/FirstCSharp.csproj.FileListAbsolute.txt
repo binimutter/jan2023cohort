@@ -1,0 +1,15 @@
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\bin\Debug\net6.0\FirstCSharp.exe
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\bin\Debug\net6.0\FirstCSharp.deps.json
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\bin\Debug\net6.0\FirstCSharp.runtimeconfig.json
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\bin\Debug\net6.0\FirstCSharp.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\bin\Debug\net6.0\FirstCSharp.pdb
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.AssemblyReference.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfoInputs.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.AssemblyInfo.cs
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.csproj.CoreCompileInputs.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\refint\FirstCSharp.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.pdb
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\FirstCSharp.genruntimeconfig.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\FirstCSharp\obj\Debug\net6.0\ref\FirstCSharp.dll
