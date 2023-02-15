@@ -1,0 +1,15 @@
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.csproj.AssemblyReference.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.AssemblyInfoInputs.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.AssemblyInfo.cs
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.csproj.CoreCompileInputs.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\bin\Debug\net7.0\FundamentalsThree.exe
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\bin\Debug\net7.0\FundamentalsThree.deps.json
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\bin\Debug\net7.0\FundamentalsThree.runtimeconfig.json
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\bin\Debug\net7.0\FundamentalsThree.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\bin\Debug\net7.0\FundamentalsThree.pdb
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\refint\FundamentalsThree.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.pdb
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\FundamentalsThree.genruntimeconfig.cache
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week1\FundamentalsThree\obj\Debug\net7.0\ref\FundamentalsThree.dll
