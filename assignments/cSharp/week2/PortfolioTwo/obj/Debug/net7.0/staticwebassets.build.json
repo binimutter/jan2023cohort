@@ -1,11 +1,105 @@
 {
   "Version": 1,
-  "Hash": "K0sVlUFFq4fMtn/lcaIxaX3Ln9NzhhxTcI8HhzJACwc=",
+  "Hash": "D22wC6XkUuh6aHg8d71Qq5xkAqnZMLIWpmsFrWAPwdk=",
   "Source": "PortfolioTwo",
   "BasePath": "_content/PortfolioTwo",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "PortfolioTwo\\wwwroot",
+      "Source": "PortfolioTwo",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\css\\style.css",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\cube.png",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "images/cube.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\cube.png"
+    },
+    {
+      "Identity": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\easybay.png",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "images/easybay.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\easybay.png"
+    },
+    {
+      "Identity": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\unlocking_wellness.png",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "images/unlocking_wellness.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\unlocking_wellness.png"
+    },
+    {
+      "Identity": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\yoobie.png",
+      "SourceId": "PortfolioTwo",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\",
+      "BasePath": "_content/PortfolioTwo",
+      "RelativePath": "images/yoobie.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\yoobie.png"
+    }
+  ]
 }

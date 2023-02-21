@@ -9,13 +9,21 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PortfolioTwo
 build_property.RootNamespace = PortfolioTwo
-build_property.ProjectDir = c:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\
+build_property.ProjectDir = C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = c:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo
+build_property.MSBuildProjectDirectory = C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo
 build_property._RazorSourceGeneratorDebug = 
 
-[c:/Users/ubinj/Documents/CodingDojo/jan2023cohort/assignments/cSharp/week2/PortfolioTwo/Views/Home/Index.cshtml]
+[C:/Users/ubinj/Documents/CodingDojo/jan2023cohort/assignments/cSharp/week2/PortfolioTwo/Views/Contact/contact.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29udGFjdFxjb250YWN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ubinj/Documents/CodingDojo/jan2023cohort/assignments/cSharp/week2/PortfolioTwo/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ubinj/Documents/CodingDojo/jan2023cohort/assignments/cSharp/week2/PortfolioTwo/Views/Projects/projects.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvamVjdHNccHJvamVjdHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\cube.png",
+      "PackagePath": "staticwebassets\\images\\cube.png"
+    },
+    {
+      "Id": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\easybay.png",
+      "PackagePath": "staticwebassets\\images\\easybay.png"
+    },
+    {
+      "Id": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\unlocking_wellness.png",
+      "PackagePath": "staticwebassets\\images\\unlocking_wellness.png"
+    },
+    {
+      "Id": "C:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioTwo\\wwwroot\\images\\yoobie.png",
+      "PackagePath": "staticwebassets\\images\\yoobie.png"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.PortfolioTwo.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.PortfolioTwo.props",
+      "PackagePath": "build\\PortfolioTwo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.PortfolioTwo.props",
+      "PackagePath": "buildMultiTargeting\\PortfolioTwo.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.PortfolioTwo.props",
+      "PackagePath": "buildTransitive\\PortfolioTwo.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

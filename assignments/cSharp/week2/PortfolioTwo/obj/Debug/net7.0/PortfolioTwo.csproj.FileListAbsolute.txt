@@ -26,3 +26,4 @@ C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\Portf
 C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\obj\Debug\net7.0\PortfolioTwo.pdb
 C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\obj\Debug\net7.0\PortfolioTwo.genruntimeconfig.cache
 C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\obj\Debug\net7.0\ref\PortfolioTwo.dll
+C:\Users\ubinj\Documents\CodingDojo\jan2023cohort\assignments\cSharp\week2\PortfolioTwo\bin\Debug\net7.0\PortfolioTwo.staticwebassets.runtime.json
