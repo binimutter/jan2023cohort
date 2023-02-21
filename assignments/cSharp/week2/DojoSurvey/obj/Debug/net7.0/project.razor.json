@@ -18675,6 +18675,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\DojoSurvey\\Views\\Home\\Result.cshtml",
+      "TargetPath": "Views\\Home\\Result.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\DojoSurvey\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"

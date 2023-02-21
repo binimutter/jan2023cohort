@@ -23,6 +23,22 @@ public class HomeController : Controller
         return View();
     }
 
+    [HttpPost("result")]
+    public ActionResult Result(string name, string location, string language, string textarea)
+    {
+        ViewBag.name = name;
+        ViewBag.location = location;
+        ViewBag.language = language;
+        ViewBag.textarea = textarea;
+        return View();
+    }
+
+    [HttpGet("result")]
+    public RedirectToActionResult Redirect()
+    {
+        return RedirectToAction("Index");
+    }
+
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
     {
