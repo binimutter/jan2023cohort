@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioOne\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioOne\\firstCWeb.csproj",
+  "SerializedFilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\TimeDisplay\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\TimeDisplay\\TimeDisplay.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,13 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "firstCWeb",
-  "Documents": [],
+  "RootNamespace": "TimeDisplay",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\TimeDisplay\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.3"
 }
