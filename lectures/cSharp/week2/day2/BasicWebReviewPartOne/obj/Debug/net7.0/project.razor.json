@@ -1,6 +1,6 @@
 {
-  "SerializedFilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioOne\\obj\\Debug\\net7.0\\project.razor.json",
-  "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\assignments\\cSharp\\week2\\PortfolioOne\\firstCWeb.csproj",
+  "SerializedFilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\obj\\Debug\\net7.0\\project.razor.json",
+  "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\BasicWebReviewPartOne.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "7.0",
@@ -18642,7 +18642,18 @@
     ],
     "CSharpLanguageVersion": 1100
   },
-  "RootNamespace": "firstCWeb",
-  "Documents": [],
+  "RootNamespace": "BasicWebReviewPartOne",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\Views\\Root\\newAlt.cshtml",
+      "TargetPath": "Views\\Root\\newAlt.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\ubinj\\Documents\\CodingDojo\\jan2023cohort\\lectures\\cSharp\\week2\\day2\\BasicWebReviewPartOne\\Views\\Root\\index.cshtml",
+      "TargetPath": "Views\\Root\\index.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
   "SerializationFormat": "0.3"
 }

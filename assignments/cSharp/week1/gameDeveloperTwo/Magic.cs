@@ -11,6 +11,6 @@ class Magic : Enemy
     }
     public void Heal(Enemy healTarget) {
         healTarget._Health += 40;
-        Console.WriteLine($"{this.Name} healed {healTarget.Name} for 40 health");
+        Console.WriteLine($"{this.Name} healed {healTarget.Name} for 40 health. {healTarget.Name} now has {healTarget._Health} health!");
     }
 }
