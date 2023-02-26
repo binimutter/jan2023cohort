@@ -103,7 +103,7 @@ body {
 	margin-bottom: 15px;
 }
 .goback {
-  text-decoration: none;
+	text-decoration: none;
 	color: #111;
 	font-size: 16px;
 	font-weight: bold;
@@ -129,18 +129,18 @@ button:hover {
 	background-color: rgb(172, 220, 247);
 }
 span {
-  color: white;
-  background-color: #c51244;
-  font-weight: bold;
-  position: relative;
-  display: inline-block;
-  padding: 5px 0;
-  box-shadow: 1px 1px 1px #aaaaaa;
+	color: white;
+	background-color: #c51244;
+	font-weight: bold;
+	position: relative;
+	display: inline-block;
+	padding: 5px 0;
+	box-shadow: 1px 1px 1px #aaaaaa;
 }
 .lang-error {
-  padding-left: 87px;
+	padding-left: 87px;
 }
 .comment-error {
-  margin-top: 10px;
-  padding: 5px 32px;
+	margin-top: 10px;
+	padding: 5px 32px;
 }
