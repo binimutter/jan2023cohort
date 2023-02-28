@@ -28,3 +28,32 @@ static void PrintEach(IEnumerable<dynamic> items, string msg = "")
         Console.WriteLine(item.ToString());
     }
 }
+
+// Use LINQ to find the first eruption that is in Chile and print the result.
+
+
+// Find the first eruption from the "Hawaiian Is" location and print it. If none is found, print "No Hawaiian Is Eruption found."
+
+
+// Find the first eruption that is after the year 1900 AND in "New Zealand", then print it.
+
+
+// Find all eruptions where the volcano's elevation is over 2000m and print them.
+
+
+// Find all eruptions where the volcano's name starts with "L" and print them. Also print the number of eruptions found.
+
+
+// Find the highest elevation, and print only that integer (Hint: Look up how to use LINQ to find the max!)
+
+
+// Use the highest elevation variable to find a print the name of the Volcano with that elevation.
+
+
+// Print all Volcano names alphabetically.
+
+
+// Print all the eruptions that happened before the year 1000 CE alphabetically according to Volcano name.
+
+
+// BONUS: Redo the last query, but this time use LINQ to only select the volcano's name so that only the names are printed.
