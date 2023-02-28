@@ -14,7 +14,11 @@
         string pwStr = new string(pwArr);
         <h1>@pwStr</h1>
     }
-    <form asp-action="Generate" asp-controller="Home" method="POST">
-        <button>Generate</button>
-    </form>
+    @* Method 1: has to be HttpGet in controller *@
+    <button><a href="Generate">Generate</a></button>
+
+    @* Method 2: has to be HttpPost in controller *@
+    @* <form asp-action="Generate" asp-controller="Home" method="POST">
+    <button>Generate</button>
+    </form> *@
 </div>

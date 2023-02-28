@@ -20,7 +20,7 @@ public class HomeController : Controller
         return View(count);
     }
 
-    [HttpPost("generate")]
+    [HttpGet("generate")]
     public IActionResult Generate(){
         int count = Convert.ToInt32(HttpContext.Session.GetInt32("pwCounter"));
         count++;
