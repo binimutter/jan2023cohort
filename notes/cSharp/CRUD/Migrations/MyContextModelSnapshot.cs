@@ -28,6 +28,10 @@ namespace CRUD.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
 
+                    b.Property<string>("Owner")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("SquishyImg")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -52,6 +56,10 @@ namespace CRUD.Migrations
 
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Owner")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.Property<string>("TuneImg")
                         .IsRequired()

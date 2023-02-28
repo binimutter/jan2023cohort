@@ -15,8 +15,8 @@
     new Eruption("Bardarbunga", 1477, "Iceland", 2000, "Stratovolcano")
 };
 // Example Query - Prints all Stratovolcano eruptions
-IEnumerable<Eruption> stratovolcanoEruptions = eruptions.Where(c => c.Type == "Stratovolcano");
-PrintEach(stratovolcanoEruptions, "Stratovolcano eruptions.");
+// IEnumerable<Eruption> stratovolcanoEruptions = eruptions.Where(c => c.Type == "Stratovolcano");
+// PrintEach(stratovolcanoEruptions, "Stratovolcano eruptions.");
 // Execute Assignment Tasks here!
 
 // Helper method to print each item in a List or IEnumerable.This should remain at the bottom of your class!
@@ -30,10 +30,12 @@ static void PrintEach(IEnumerable<dynamic> items, string msg = "")
 }
 
 // Use LINQ to find the first eruption that is in Chile and print the result.
-
+// Eruption? firstInChile = eruptions.FirstOrDefault(c => c.Location == "Chile");
+// Console.WriteLine(firstInChile);
 
 // Find the first eruption from the "Hawaiian Is" location and print it. If none is found, print "No Hawaiian Is Eruption found."
-
+// Eruption? firstInHawaii = eruptions.FirstOrDefault(c => c.Location == "Hawaiian Is");
+// Console.WriteLine(firstInHawaii);
 
 // Find the first eruption that is after the year 1900 AND in "New Zealand", then print it.
 

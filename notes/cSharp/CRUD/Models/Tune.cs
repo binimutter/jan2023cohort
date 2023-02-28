@@ -10,6 +10,7 @@ public class Tune {
     [Required]
     public string TuneImg {get; set;}
     [Required]
+    public string Owner {get; set;} = "Ubin";
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
 }
