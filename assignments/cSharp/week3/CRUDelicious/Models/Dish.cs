@@ -10,9 +10,11 @@ public class Dish {
     [Required]
     public string Chef {get; set;}
     [Required]
-    public int Tastiness {get; set;}
+    [Range(1, 5)]
+    public int? Tastiness {get; set;}
     [Required]
-    public int Calories {get; set;}
+    [Range (1, int.MaxValue)]
+    public int? Calories {get; set;}
     [Required]
     public string Description {get; set;}
     public DateTime CreatedAt { get; set; } = DateTime.Now;
