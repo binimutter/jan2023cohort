@@ -12,22 +12,24 @@ public class DishController : Controller
     {
         db = context;
     }
+    [HttpGet("")] 
+    public IActionResult Dashboard() {
+        List<Dish> allDishes = db.Dishes.ToList();
+        return View("Dashboard", allDishes);
+    }
 
-    [HttpGet("dish/{id}")]
-    public IActionResult Info(int id)
-    {
-        Dish? ViewDish = db.Dishes.FirstOrDefault(i => i.DishId == id);
-        if (ViewDish != null)
-        {
-            return View(ViewDish);
-        }
-        else
-        {
-            return RedirectToAction("Index");
+    [HttpGet("dish/{dishId}/view")]
+    public IActionResult ViewProject(int dishId) {
+        Dish? dish = db.Dishes.FirstOrDefault(dish => dish.DishId == dishId);
+
+        if(dish == null) {
+            return RedirectToAction("dashboard");
+        } else {
+            return View("ViewDish", dish);
         }
     }
 
-    [HttpGet("/dish/new")]
+    [HttpGet("/dish/addDish")]
     public IActionResult AddDish() {
         return View();
     }
@@ -36,8 +38,8 @@ public class DishController : Controller
         if (ModelState.IsValid) {
             db.Dishes.Add(d);
             db.SaveChanges();
-            Console.WriteLine(s.DishId);
-            return Redirect("");
+            Console.WriteLine(d.DishId);
+            return Redirect("/");
             // we would want to use ViewBag if we were to say "You have successfully added a new squishy after submit"
         } else {
             return View("AddDish");

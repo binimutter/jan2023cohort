@@ -17,7 +17,7 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        return View();
+        return View("Dashboard", "Dish");
     }
 
     public IActionResult Privacy()
