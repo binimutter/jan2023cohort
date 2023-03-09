@@ -21,9 +21,22 @@ public class ChefController : Controller
     [HttpGet("/chef/dashboard")]
     public IActionResult Dashboard() {
         List<Chef> allChefs = db.Chefs
+            .Include(d => d.AllDishes)
             .ToList();
         return View("Dashboard", allChefs);
     }
-    
+    [HttpGet("/chef/addChef")]
+    public IActionResult AddChef() {
+        return View("AddChef");
+    }
+    [HttpPost("/chef/createChef")]
+    public IActionResult CreateChef(Chef c) {
+        if (ModelState.IsValid) {
+            db.Chefs.Add(c);
+            db.SaveChanges();
+            return Redirect("Dashboard");
+        }
+        return View("AddChef");
+    }
     
 }

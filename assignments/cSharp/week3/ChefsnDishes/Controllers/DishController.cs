@@ -25,6 +25,20 @@ public class DishController : Controller
             .ToList();
             return View("Dashboard", allDishes);
     }
-    
+    [HttpGet("/dish/addDish")]
+    public IActionResult AddDish() {
+        ViewBag.Chefs = db.Chefs.ToList();
+        // Console.WriteLine(new string('=', 10));
+        return View("AddDish");
+    }
+    [HttpPost("/dish/createDish")]
+    public IActionResult CreateDish(Dish d) {
+        if (ModelState.IsValid) {
+            db.Dishes.Add(d);
+            db.SaveChanges();
+            return Redirect("Dashboard");
+        }
+        return View("AddDish");
+    }
     
 }

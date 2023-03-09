@@ -19,13 +19,17 @@
             </tr>
         </thead>
         <tbody>
-            @foreach(Chef c in Model) {
-                int year = DateTime.Now.Year - c.DateOfBirth.Year;
-                <tr>
-                    <td>@c.FirstName @c.LastName</td>
-                    <td>@year</td>
-                    <td>@c.AllDishes.Count</td>
-                </tr>
+            @{
+                foreach(Chef c in Model) {
+                    int year = DateTime.Now.Year - c.DateOfBirth.Year;
+                    List<Dish> dishList = new List<Dish>(c.AllDishes);
+                    <tr>
+                        <td>@c.FirstName @c.LastName</td>
+                        <td>@year</td>
+                        <td>@dishList.Count</td>
+                    </tr>
+                    Console.WriteLine(@c.AllDishes.Count);
+                }
             }
         </tbody>
     </table>
