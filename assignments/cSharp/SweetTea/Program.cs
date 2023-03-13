@@ -1,5 +1,5 @@
 using Microsoft.EntityFrameworkCore;
-using AllAboutTea.Models;
+using SweetTea.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 

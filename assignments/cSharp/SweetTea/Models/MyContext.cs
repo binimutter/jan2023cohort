@@ -1,7 +1,7 @@
 #pragma warning disable CS8618
 
 using Microsoft.EntityFrameworkCore;
-namespace AllAboutTea.Models;
+namespace SweetTea.Models;
 
 public class MyContext : DbContext 
 {    

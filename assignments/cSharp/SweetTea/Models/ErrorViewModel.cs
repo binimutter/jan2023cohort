@@ -1,4 +1,4 @@
-namespace AllAboutTea.Models;
+namespace SweetTea.Models;
 
 public class ErrorViewModel
 {

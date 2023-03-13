@@ -1,8 +1,8 @@
 ﻿using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using AllAboutTea.Models;
+using SweetTea.Models;
 
-namespace AllAboutTea.Controllers;
+namespace SweetTea.Controllers;
 
 public class HomeController : Controller
 {

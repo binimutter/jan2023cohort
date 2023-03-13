@@ -1,7 +1,7 @@
 #pragma warning disable CS8618
 
 using System.ComponentModel.DataAnnotations;
-namespace AllAboutTea.Models;
+namespace SweetTea.Models;
 
 public class Tea
 {

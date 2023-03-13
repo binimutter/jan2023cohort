@@ -2,7 +2,7 @@
 
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-namespace AllAboutTea.Models;
+namespace SweetTea.Models;
 
 public class User
 {
@@ -39,7 +39,7 @@ public class User
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;
-    public List<Art> CreatedTea { get; set; } = new List<Tea>();
+    public List<Tea> CreatedTea { get; set; } = new List<Tea>();
 
     public List<UserTeaRating> Teas { get; set; } = new List<UserTeaRating>();
 }
