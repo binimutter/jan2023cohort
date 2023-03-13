@@ -32,7 +32,12 @@ public class Tea
     public string Image { get; set; }
 
     [Required]
-    public decimal? Price { get; set; }
+    public double? Price { get; set; }
+
+    [Display(Name = "Main Ingredients")]
+    public string Ingredients {get; set;}
+    [Display(Name = "Brewing Instructions")]
+    public string Instructions {get; set;}
 
     public DateTime CreatedAt { get; set; } = DateTime.Now;
     public DateTime UpdatedAt { get; set; } = DateTime.Now;

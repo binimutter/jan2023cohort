@@ -18,8 +18,100 @@ public class TeaController : Controller
     [HttpGet("/teas")]
     public IActionResult All()
     {
-        // List<Art> arts = db.Arts.Include(a => a.Creator).Include(a => a.Likes).OrderByDescending(a => a.UpdatedAt).ToList();
-        return View("All");
+        List<Tea> teas = db.Teas.Include(t => t.Creator).Include(t => t.Ratings).OrderByDescending(t => t.UpdatedAt).ToList();
+        return View("All", teas);
+    }
+
+    [LoginCheck]
+    [HttpGet("/teas/new")]
+    public IActionResult New()
+    {
+        return View("New");
+    }
+
+    [LoginCheck]
+    [HttpPost("/teas/create")]
+    public IActionResult Create(Tea newTea)
+    {
+        if (!ModelState.IsValid)
+        {
+            return View("New");
+        }
+
+        newTea.UserId = (int)HttpContext.Session.GetInt32("UUID");
+
+        db.Teas.Add(newTea);
+
+        db.SaveChanges();
+
+        return RedirectToAction("All");
+    }
+
+    [LoginCheck]
+    [HttpGet("/teas/{id}")]
+    public IActionResult ViewOne(int id)
+    {
+        Tea? tea = db.Teas.Include(t => t.Creator).Include(t => t.Ratings).ThenInclude(rating => rating.User).FirstOrDefault(t => t.TeaId == id);
+        if (tea == null) {
+            return RedirectToAction("All");
+        }
+
+        return View("ViewOne", tea);
+    }
+
+    [LoginCheck]
+    [HttpGet("/teas/{id}/edit")]
+    public IActionResult Edit (int id) {
+        Tea? tea = db.Teas.FirstOrDefault(t => t.TeaId == id);
+        if (tea == null) {
+            return RedirectToAction("All");
+        }
+
+        return View("Edit", tea);
+    }
+
+    [LoginCheck]
+    [HttpPost("/teas/{id}/update")]
+    public IActionResult UpdateTea(int id, Tea editedTea)
+    {
+        if (!ModelState.IsValid)
+        {
+            return Edit(id);
+        }
+
+        Tea? dbTea = db.Teas.FirstOrDefault(t => t.TeaId == id);
+        if (dbTea == null) {
+            return RedirectToAction("All");
+        }
+
+        dbTea.Name = editedTea.Name;
+        dbTea.Company = editedTea.Company;
+        dbTea.Image = editedTea.Image;
+        dbTea.Type = editedTea.Type;
+        dbTea.Flavor = editedTea.Flavor;
+        dbTea.CaffeineLevel = editedTea.CaffeineLevel;
+        dbTea.Price = editedTea.Price;
+        dbTea.Ingredients = editedTea.Ingredients;
+        dbTea.Instructions = editedTea.Instructions;
+        dbTea.UpdatedAt = DateTime.Now;
+
+        db.Teas.Update(dbTea);
+        db.SaveChanges();
+
+        return RedirectToAction("ViewOne", new { id = id });
+    }
+
+    [LoginCheck]
+    [HttpPost("/teas/{id}/delete")]
+    public IActionResult DeleteTea(int id)
+    {
+        Tea? tea = db.Teas.FirstOrDefault(t => t.TeaId == id);
+        if(tea != null) {
+            db.Teas.Remove(tea);
+            db.SaveChanges();
+        }
+
+        return RedirectToAction("All");
     }
 }
 

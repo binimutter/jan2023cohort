@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="~/SweetTea.styles.css" asp-append-version="true" />
 </head>
 <body>
+@if (Context.Session.GetInt32("UUID") != null) {
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SweetTea</a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Sweet Tea</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -22,20 +23,22 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
-                        @if (Context.Session.GetInt32("UUID") != null) {
-                            <li class="nav-item">
-                                <form asp-controller="User" asp-action="Logout" method="POST">
-                                    <button class="btn btn-link">
-                                        Logout
-                                    </button>
-                                </form>
-                            </li>
-                        }
+                        <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Tea" asp-action="New">Add a Tea</a>
+                        </li>
+                        <li class="nav-item">
+                            <form asp-controller="User" asp-action="Logout" method="POST">
+                                <button class="btn btn-link">
+                                    Logout
+                                </button>
+                            </form>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </header>
+}
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
